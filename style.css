@@ -287,6 +287,11 @@ a:hover {
     font-size: 11px;
 }
 
+div.col-sm-12.text-center span {
+    font-size: 35px;
+    color: black;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
