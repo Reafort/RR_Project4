@@ -22,6 +22,7 @@ a:hover {
 	z-index: 100000;
 	background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+
 .bloc {
 	width: 100%;
 	clear: both;
@@ -459,10 +460,10 @@ a[data-lightbox]:hover img {
 	color: rgba(0, 0, 0, .5);
 	background: none;
 }
-h1, h2, h4, h5, h6, p, label, .btn, a {
+h1, h2, h3, h4, h5, h6, , label, .btn, a {
 	font-family: "helvetica";
 	font-weight: 400;
-	color: #FFFFFF!important;
+	color: #FFFFFF
 }
 .container {
 	max-width: 1000px;
@@ -484,6 +485,9 @@ h1, h2, h4, h5, h6, p, label, .btn, a {
 }
 p {
 	font-size: 12px;
+}
+a {
+    color: white;
 }
 .tight-width-whitespace {
 	max-width: 600px;
@@ -515,8 +519,9 @@ h3 {
 	font-weight: 700;
 	color: #333333!important;
 }
-h3.p.text-center {
-    color: black;
+p.text-center {
+    color: #000000;
+    font-size: 15px;
 }
 
 .med-width-whitespace {
