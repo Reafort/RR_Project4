@@ -347,8 +347,14 @@ button {
 .panel-rd .panel-footer {
 	border-radius: 0 0 29px 29px;
 }
+div.col-sm-6 {
+  color:#070e08;
+}
+div.col-sm-6 p {
+    font-size: 18px
+}
 .form-control {
-	border-color: rgba(0, 0, 0, .1);
+	border-color: rgba(0, 0, 0,.2);
 	box-shadow: none;
 }
 .scrollToTop {
@@ -464,6 +470,9 @@ h1, h2, h3, h4, h5, h6, label, .btn, a {
 	font-family: "helvetica";
 	font-weight: 400;
 	color: #FFFFFF
+}
+label {
+    color:#070e08;
 }
 .container {
 	max-width: 1000px;
